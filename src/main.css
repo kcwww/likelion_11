@@ -58,18 +58,18 @@
 	background: -webkit-linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E);
 	background: linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E);
 	display: -webkit-flex;
-	display: flex;
+
 	-webkit-align-items: center;
 	align-items: center;
 	-webkit-justify-content: center;
 	justify-content: center;
   }
-  #mock {
+  /* #mock {
 	max-width: 900px;
 	margin-left: 80px;
 	-webkit-flex: 1;
 	flex: 1
-  }
+  } */
   #myself {
 	-webkit-flex: 1;
 	flex: 1;
@@ -126,11 +126,19 @@
 	align-items: center;
 	-webkit-justify-content: center;
 	justify-content: center;
+
   }
+
+
+
+
   .hobby_img {
-	max-width: 300px;
+	max-width: 350px;
+	height : 300px;
 	display : inline;
+
   }
+
   .hobby_text {
 	margin-top: 30px;
 
@@ -140,7 +148,9 @@
   }
   /* Window 4 */
   #window4 {
-	background: #eee;
+	background: #70e1f5;
+	background: -webkit-linear-gradient(to right, #ffd194, #70e1f5);
+	background: linear-gradient(to right, #ffd194, #70e1f5);
   }
   #window4 h1 {
 	padding-top: 120px;
@@ -172,6 +182,11 @@
   }
   .my_imglist {
 	text-align: center;
+	transition: all 0.2s linear;
+  }
+
+  .my_imglist :hover img {
+	transform: scale(1.4);
   }
 
   .snsimgs {
